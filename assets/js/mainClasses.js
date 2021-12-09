@@ -1,14 +1,13 @@
+
+/* 
+Creates a class called rectangle
+Sadly you can only have one constructor but there 
+are some simle ways in wich you can get around the 
+however there are so caveats to them.
+ */
 class Rectangle {
   constructor(height, width) {
     this.height = height;
     this.width = width;
-  }
-  // Getter
-  get area() {
-    return this.calcArea();
-  }
-  // Method
-  calcArea() {
-    return this.height * this.width;
   }
 }
